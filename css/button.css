@@ -1,0 +1,19 @@
+.body__button {
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(215, 215, 235);
+    padding: 15px 20px;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.body__button:hover {
+    background:rgb(236 231 119);
+  }
+

@@ -1,0 +1,23 @@
+.navigation__item {
+  display: inline-block;
+  text-align: center;
+  background-color: lavender;
+  border-radius: 20px;
+  border-bottom: 2px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation__item:hover {
+  background: rgb(236 231 119);
+}
+
+.navigation__link {
+  text-decoration: none;
+  margin: 0 auto;
+}

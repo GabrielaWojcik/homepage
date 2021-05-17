@@ -1,0 +1,26 @@
+.body { 
+    color: hsl(261deg 6% 14%);
+    margin: 50px auto 0;
+    max-width: 1000px;
+    min-width: 200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6;
+
+}
+
+
+.body__header {
+    color: rgb(64 64 55 / 72%);
+    background-color: rgb(236 231 119);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.body__paragraph {
+    text-align: center
+}

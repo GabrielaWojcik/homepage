@@ -1,0 +1,33 @@
+.table {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+.table__cell {
+    border: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}  
+
+.table__cell--header {
+    background-color: lavender;
+    color: rgb(53, 53, 53);
+    font-weight: normal bold;
+}

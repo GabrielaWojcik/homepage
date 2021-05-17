@@ -1,0 +1,13 @@
+.section__header {
+    color: rgb(64 64 55 / 72%);
+    background-color: rgb(236 231 119);
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.section__div {
+    color: rgb(141 113 113);
+    background-color: lavender;
+    padding: 20px;
+}

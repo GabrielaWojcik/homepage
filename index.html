@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona internetowa</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="body__header">Trochę o mnie</h1>
+        <p class="body__paragraph">
+            <button class="body__button">Włącz <span class="themeName">ciemny</span> motyw</button>
+        </p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#Gabi">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#Architekt">Ulubieni architekci</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <article>
+            <section>
+
+                <img width="280" class="section__image" src="https://i.postimg.cc/XqP8KG2L/Gabriela-W-jcik.jpg"
+                    alt="Gabriela Wójcik">
+                <h2 class="section__header" id="Gabi">Hej wszystkim, jestem Gabi</h2>
+
+
+
+                <div class="section__div">
+                    <p>Z wykształcenia jestem Architektem, ale od zawsze pasjonowała mnie grafika i rysunek. <br> Jestem
+                        <b>artystyczną duszą</b> i uwielbiam tworzyć nowe rzeczy. Cały czas chcę się rozwijać i nabywać
+                        nowe
+                        umiejętności, <strong>dlatego postanowiłam wziąć udział w kursie!</strong>
+                    </p>
+                    <p>Tworząc jakieś dzieło, na przykład grafikę, bądź projekt architektoniczny lubię kierować się
+                        zasadą
+                        mojego
+                        ulubionego architekta Mies van der Rohe <em>"Less is more".</em>
+                        <br>Uważam, że to bardzo ważne słowa. Lepiej jest skupić się na jakości niż na ilości i czasem
+                        rzeczywiście
+                        <i>mniej znaczy więcej.</i> Do tego odnosi się również inne stwierdzenie przytoczonego wcześniej
+                        architekta
+                        <em>"Diabeł tkwi w szczegółach"</em>
+                    </p>
+                </div>
+            </section>
+
+            <div class="tableContainer">
+                <section>
+                    <table class=table>
+                        <caption class="table__caption">Architekci, których szanuję</caption>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="col" id="Architekt">Architekt</th>
+                            <th class="table__cell table__cell--header" scope="col">Styl architektoniczny</th>
+                            <th class="table__cell table__cell--header" scope="col">Motto</th>
+                            <th class="table__cell table__cell--header" scope="col">Mój ulubiony budynek</th>
+
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">Antonio Gaudi</th>
+                            <td class="table__cell">secesja</td>
+                            <td class="table__cell table__cell--italic">
+                                "There are no straight lines or sharp corners in nature. Therefore, building must have no straight lines or sharp corners"
+                            </td>
+                            <td class="table__cell">Sagrada Família</td>
+
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">Ludwig Mies van der Rohe</th>
+                            <td class="table__cell">modernizm</td>
+                            <td class="table__cell table__cell--italic">
+                                "Less is more"<br>"The devil is in the details."
+                            </td>
+                            <td class="table__cell">Seagram Building</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">Bjarke Ingels</th>
+                            <td class="table__cell">-</td>
+                            <td class="table__cell table__cell--italic">"I believe that architecture, as
+                                    anything else in
+                                    life,
+                                    is
+                                    evolutionary. Ideas
+                                    evolve; they don't come from outer space and crash into the drawing board."
+                            </td>
+                            <td class="table__cell">APM Musée Atelier Audemars Piguet </td>
+                        </tr>
+                    </table>
+                </section>
+
+            </div>
+
+
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+        <p>Copyright 2021 Gabriela Wójcik</p>
+
+    </footer>
+
+
+</body>
+
+</html>
