@@ -1,18 +1,23 @@
-function welcome() {
-    console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
+
+    const toggleBackground = () => {
+        const body = document.documentElement;
+        const nextColorName = document.querySelector(".js--nextColorName");
+
+        body.classList.toggle("dark");
+        nextColorName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+
+    };
+
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js--changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+
+        welcome();
+    }
+
+    init();
 }
-welcome();
-
-let changeBackgroundButton = document.querySelector(".js--changeBackgroundButton");
-let body = document.documentElement;
-let nextColorName = document.querySelector(".js--nextColorName");
-
-changeBackgroundButton.addEventListener("click", () => {
-    body.classList.toggle("dark");
-
-    nextColorName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-
-});
-
-
-console.log(changeBackgroundButton);
