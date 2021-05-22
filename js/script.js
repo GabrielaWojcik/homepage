@@ -5,7 +5,6 @@ welcome();
 
 let changeBackgroundButton = document.querySelector(".js--changeBackgroundButton");
 let body = document.documentElement;
-let heading = document.querySelector(".heading");
 let themeName = document.querySelector(".themeName");
 
 changeBackgroundButton.addEventListener("click", () => {
