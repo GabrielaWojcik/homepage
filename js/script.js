@@ -5,12 +5,12 @@ welcome();
 
 let changeBackgroundButton = document.querySelector(".js--changeBackgroundButton");
 let body = document.documentElement;
-let themeName = document.querySelector(".themeName");
+let nextColorName = document.querySelector(".js--nextColorName");
 
 changeBackgroundButton.addEventListener("click", () => {
     body.classList.toggle("dark");
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    nextColorName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
 
 });
 
