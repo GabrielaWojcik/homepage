@@ -1,14 +1,14 @@
 function welcome() {
     console.log("Cześć!");
 }
- welcome();
+welcome();
 
-let button = document.querySelector(".body__button");
+let changeBackgroundButton = document.querySelector(".js--changeBackgroundButton");
 let body = document.documentElement;
 let heading = document.querySelector(".heading");
 let themeName = document.querySelector(".themeName");
 
-button.addEventListener("click", () => {
+changeBackgroundButton.addEventListener("click", () => {
     body.classList.toggle("dark");
 
     themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
@@ -16,4 +16,4 @@ button.addEventListener("click", () => {
 });
 
 
-console.log(button);
+console.log(changeBackgroundButton);
