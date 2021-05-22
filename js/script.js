@@ -4,7 +4,7 @@ function welcome() {
  welcome();
 
 let button = document.querySelector(".body__button");
-let body = document.querySelector(".body");
+let body = document.documentElement;
 let heading = document.querySelector(".heading");
 let themeName = document.querySelector(".themeName");
 
